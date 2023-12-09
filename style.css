@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+.milieu{
+    width: 100%;
+    padding: 0 100px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+.gauche1, .droite1{
+    width: 50%;
+    height: 100vh;
+}
+.gauche1 h1{
+    padding: 0px 0 10px 0;
+    width: 80%;
+    font-size: 40px;
+}
+.gauche1 p{
+    color: #9E9E9E;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.gauche1 header{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: -10px;
+}
+header ul li{
+    padding-left: 10px;
+    color: #000;
+}
+
+
+
+.btn{
+    height: auto;
+    width: 150px;
+    padding: 15px 15px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #004AAD;
+    color: #fff;
+}
+
+.twittertiktokinsta{
+    margin-top: 50px;
+}
+
+.twittertiktokinsta ul {
+    list-style: none;
+}
+.twittertiktokinsta ul li{
+    padding-top: 8px;
+}
+
+#bas{
+    background-color: #004AAD33;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:767px) {
+    .milieu{
+        padding: 0 50px;
+    }
+    .gauche1 header {
+        display: block;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    main{
+        display: block;
+    }
+    .gauche1, .droite1{
+        width: 100%;
+        height: auto;
+    }
+    .droite1{
+        margin-top: 20px;
+    }
+    .twittertiktokinsta ul{
+        display: flex;
+        margin-left: -10px;
+    }
+    .twittertiktokinsta ul li{
+        padding-left: 10px;
+    }
+
+    .gauche1 h1{
+        font-size: 30px;
+    }
+}
